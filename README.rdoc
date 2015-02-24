@@ -1,8 +1,13 @@
 == Book Manager
 
 Ruby on rails project.
+
 Ruby version: 1.9.3.
+
 Rails version: 3.2.0.
+
 Db core: PostgreSQL.
+
 Hosting: Heroku.
+
 Current project's page: https://anotherbookmanager.herokuapp.com/
