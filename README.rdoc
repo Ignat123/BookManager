@@ -10,4 +10,4 @@ Db core: PostgreSQL.
 
 Hosting: Heroku.
 
-Current project's page: https://anotherbookmanager.herokuapp.com/
+Current project's page: https://anotherbookmanager.herokuapp.com
