@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails BookManager: development" uuid="9874816d-ee53-43fb-827a-a7006cfbae76">
+      <user-name>ignat</user-name>
+      <user-password>dfc3dfccdfcedfdedfc1dfc7df9c</user-password>
+      <schema-pattern>BookManager_development.pg_catalog BookManager_development.public</schema-pattern>
+      <default-schemas>BookManager_development.pg_catalog BookManager_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails BookManager: test" uuid="899ac418-44ff-48af-8bbf-8bb47af93ef3">
+      <user-name>ignat</user-name>
+      <user-password>dfc3dfccdfcedfdedfc1dfc7df9c</user-password>
+      <schema-pattern>BookManager_test.pg_catalog BookManager_test.public</schema-pattern>
+      <default-schemas>BookManager_test.pg_catalog BookManager_test.public</default-schemas>
+    </data-source>
+    <data-source name="Rails BookManager: production" uuid="c90d043f-11d8-4f5e-a4bd-3972b5bc7642">
+      <user-name>ignat</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe8dfe5dfe5dfe1dfe7dfebdfe4dfebdfeddfefdff8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <schema-pattern>BookManager_production.pg_catalog BookManager_production.public</schema-pattern>
+      <default-schemas>BookManager_production.pg_catalog BookManager_production.public</default-schemas>
+    </data-source>
+  </component>
+</project>
