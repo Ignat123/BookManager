@@ -1,4 +1,6 @@
-<!--
-  <img class="halfScreen" style="position: absolute;" src="http://i.ytimg.com/vi/O91LOUqSMrs/maxresdefault.jpg" />
-  <img class="halfScreen" style="position: absolute; margin-left: 50%; "src="http://i.ytimg.com/vi/O91LOUqSMrs/maxresdefault.jpg" />
--->
+<ul style="margin-left: -30%;">
+  <h1>Our users:</h1>
+  <% @users.each do |u| %>
+    <li> <%= "Email: #{u.email}, registered at: #{u.created_at}" %></li>
+  <% end %>
+</ul>
