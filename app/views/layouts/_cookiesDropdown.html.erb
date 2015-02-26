@@ -1,0 +1,12 @@
+<ul class="nav navbar-nav navbar-right">
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+      <%= dropdownsName %>
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      <li onclick="saveCookieWithReload('<%= dropdownsCookie %>', '<%= firstValue %>')"><a><%= firstName %></a></li>
+      <li onclick="saveCookieWithReload('<%= dropdownsCookie %>', '<%= secondValue %>')"><a><%= secondName %></a></li>
+    </ul>
+  </li>
+</ul>

@@ -20,4 +20,12 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  language: "Language"
+  russian: "Russian"
+  english: "English"
+  signOut: "Sign out"
+  signUp: "Sign up"
+  login: "Log in"
+  theme: "Theme"
+  white: "White"
+  golden: "Golden"
