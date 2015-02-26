@@ -1,5 +1,7 @@
 function saveCookie(name, value){
-  document.cookie = name + "=" + value + "; path=/";
+  var CookieDate = new Date;
+  CookieDate.setFullYear(CookieDate.getFullYear( ) +10);
+  document.cookie = name + "=" + value + "; path=/; expires=" + CookieDate + ";";
 }
 
 function saveCookieWithReload(name, value){
