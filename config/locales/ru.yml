@@ -18,3 +18,4 @@ ru:
   email: "E-mail"
   password: "Пароль"
   password_confirmation: "Подтверждение пароля"
+  page_not_found: "Страница не найдена"
