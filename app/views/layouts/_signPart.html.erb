@@ -14,8 +14,4 @@
       <%= link_to t(:login), new_user_session_path, :class => 'navbar-link'  %>
     </li>
   <% end %>
-  <%= render partial: "layouts/cookiesDropdown", locals: {:dropdownsName => t(:language), :dropdownsCookie => "lang",
-    :firstValue => "en", :secondValue => "ru", :firstName => t(:english), :secondName => t(:russian)} %>
-  <%= render partial: "layouts/cookiesDropdown", locals: {:dropdownsName => t(:theme), :dropdownsCookie => "theme",
-    :firstValue => "white", :secondValue => "yellow", :firstName => t(:white), :secondName => t(:golden)} %>
 </ul>
