@@ -16,6 +16,9 @@ module BookManager
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     # config.time_zone = 'Central Time (US & Canada)'
 
+    #Override exceptions pages
+    config.exceptions_app = self.routes
+
     #Turn off all styles and scripts
     config.generators.stylesheets = false
     config.generators.javascripts = false

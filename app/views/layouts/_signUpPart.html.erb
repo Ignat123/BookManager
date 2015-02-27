@@ -1,0 +1,53 @@
+<a data-toggle="modal" data-target="#signUpModal"><%= t(:signUp) %></a>
+
+<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" style="text-align: center;"><%= t(:signUp) %></h2>
+      </div>
+      <div class="modal-body">
+        <h3><%= t(:i) %> <b><%= t(:glad) %> </b><%= t(:than_you_chose) %></h3>
+        <hr/>
+        <h3><%= t(:fill_fields) %></h3>
+        <%= form_for "user" do |f| %>
+
+            <div class="field">
+              <%= f.label t(:first_name) %><br />
+              <%= f.text_field 'firstName', autofocus: true, style:"width:100%;" %>
+            </div>
+
+            <div class="field">
+              <%= f.label t(:last_name) %><br />
+              <%= f.text_field 'lastName', autofocus: true, style:"width:100%;"  %>
+            </div>
+
+            <div class="field">
+              <%= f.label t(:email) %><br />
+              <%= f.email_field :email, autofocus: true, style:"width:100%;"  %>
+            </div>
+
+            <div class="field">
+              <%= f.label t(:password) %><br />
+              <%= f.password_field :password, autocomplete: "off", style:"width:100%;"  %>
+            </div>
+
+            <div class="field">
+              <%= f.label t(:password_confirmation) %><br />
+              <%= f.password_field :password_confirmation, autocomplete: "off", style:"width:100%;"  %>
+            </div>
+
+            <br/>
+            <button class="btn btn-primary" style="width: 100%;">
+              <%= t(:signUp) %>
+            </button>
+
+        <% end %>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"><%= t(:close) %>></button>
+      </div>
+    </div>
+  </div>
+</div>
