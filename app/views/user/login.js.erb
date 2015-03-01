@@ -1,0 +1,9 @@
+<% if @error.blank? %>
+  $("#logInErrorsArea").hide();
+  location.reload();
+<% else %>
+  $("#logInErrorsArea").show();
+  $("#logInErrors").empty();
+  $("#logInErrors").append("<ul><li><h5> <%= @error %></h5></li></ul>");
+<% end %>
+$('#loadingLogIn').hide();

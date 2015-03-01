@@ -15,7 +15,9 @@ Rails.application.routes.draw do
   root 'home#index'
 
   #resources
-  resources :user
+  resources :user do
+    post :login, on: :collection
+  end
 
   #Own errors routes
   #match '/404', to: 'errors#file_not_found', via: :all

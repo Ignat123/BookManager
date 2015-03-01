@@ -48,3 +48,4 @@ en:
   enter_confirm_password: "Enter password confirmation."
   confirmation_fail: "Password and confirmation must be equal."
   occupied_email: "This email is already occupied."
+  login_fail: "This combination of email and password can't be find."

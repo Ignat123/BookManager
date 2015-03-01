@@ -18,4 +18,17 @@ class UserController < ActionController::Base
     end
   end
 
+  def login
+    user = User.find_by_email(params[:user][:email])
+    if !user.nil? and user.valid_password?(params[:user][:password])
+      sign_in(:user, user)
+    else
+      @error = t(:login_fail)
+    end
+    respond_to do |format|
+      format.html { redirect_to login_path}
+      format.js   {}
+    end
+  end
+
 end

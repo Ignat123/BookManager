@@ -1,0 +1,17 @@
+<%= form_for :user, url: {action: "login", controller: 'user'}, remote: true do |f| %>
+
+    <div class="field">
+      <%= f.label t(:email) %><br />
+      <%= f.email_field :email, autofocus: true, style:"width:100%;", :placeholder => t(:email)  %>
+    </div>
+
+    <div class="field">
+      <%= f.label t(:password) %><br />
+      <%= f.password_field :password, autocomplete: "off", style:"width:100%;", :placeholder => t(:password)  %>
+    </div>
+
+    <br/>
+    <button class="btn btn-primary" onclick="$('#loadingLogIn').show();" style="width: 100%;">
+      <%= t(:login) %>
+    </button>
+<% end %>
