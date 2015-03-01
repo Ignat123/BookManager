@@ -1,10 +1,8 @@
 class ApplicationController < ActionController::Base
 
-  before_action :set_locale
+  include LocaleProvider
 
-  def set_locale
-    I18n.locale = cookies[:lang] || I18n.default_locale
-  end
+  before_action :set_locale
 
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.

@@ -1,6 +1,8 @@
 class UserController < ActionController::Base
 
-  include UserHelper
+  include UserHelper, LocaleProvider
+
+  before_action :set_locale
 
   def create
     generate_errors(params[:user])
