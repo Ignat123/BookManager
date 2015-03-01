@@ -9,5 +9,16 @@
 }
 
 a:hover {
-    cursor:pointer;
+  cursor:pointer;
+}
+
+.error_label{
+  text-align: center;
+  color:red;
+}
+
+.error_div{
+  width: 100%;
+  min-height: 40px;
+  border: solid 12px red;
 }

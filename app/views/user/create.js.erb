@@ -1,0 +1,9 @@
+<% if @errors.empty? %>
+  $("#registrationErrorsArea").hide();
+  location.reload();
+<% else %>
+  $("#registrationErrorsArea").show();
+  $("#registrationErrors").empty();
+  $("<%= escape_javascript(render partial: "user/signUpErrors") %>").appendTo("#registrationErrors");
+<% end %>
+$('#loadingCreate').hide();

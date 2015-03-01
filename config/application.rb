@@ -17,7 +17,7 @@ module BookManager
     # config.time_zone = 'Central Time (US & Canada)'
 
     #Override exceptions pages
-    config.exceptions_app = self.routes
+    #config.exceptions_app = self.routes
 
     #Turn off all styles and scripts
     config.generators.stylesheets = false

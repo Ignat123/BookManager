@@ -1,6 +1,6 @@
 <ul style="margin-left: -30%;">
   <h1>Our users:</h1>
   <% @users.each do |u| %>
-    <li> <%= "Email: #{u.email}, registered at: #{u.created_at}, name: #{u.firstName}, surname:#{u.lastName}" %></li>
+    <li> <%= "Email: #{u.email}, registered at: #{u.created_at}, name: #{u.first_name}, surname:#{u.last_name}" %></li>
   <% end %>
 </ul>
