@@ -22,9 +22,38 @@ ru:
   registration_errors: "Обратите внимание на данные ошибки:"
   enter_name: "Введите имя"
   enter_last_name: "Введите фамилию."
-  enter_email: "Введите email."
+  enter_email: "Введите ваш email."
   enter_password: "Введите пароль."
   enter_confirm_password: "Введите подтверждение пароля."
   confirmation_fail: "Пароль с подтверждением не совпадают."
   occupied_email: "Данная почта уже занята"
   login_fail: "Данная комбинация почты и пароля не была найдена."
+  forget_password: "Забыли пароль?"
+  send_reset_instructions: "Отправьте мне инструкции по смене пароля"
+  email_recovery: "Введите вашу электронную почту:"
+  no_such_user: "Пользователь с данной почтой не был найден."
+  check_email: "Инструкции по сбросу пароля были отправлены на вашу электронную почту."
+  greetings: "Здравствуйте"
+  request_link_to_reset_password: "Кто - то запросил ссылку на изменения пароля. Если это были вы, воспользуйтесь этой ссылкой:"
+  change_my_password: "Сменить мой пароль"
+  ignore_this_email: "Если это были не вы, просто игнорируйте это сообщение"
+  king_regards: "С уважением"
+  another_book_manager_community: "Общество Another Book manager"
+  change_your_password: "Смена пароля"
+  change_my_password: "Сменить мой пароль"
+  new_password: "Новый пароль"
+  confirm_new_password: "Подтверждение нового пароля"
+  take_a_look_on_errors: "Перед продолжением обратите внимание на данные ошибки"
+
+
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            password_confirmation:
+              confirmation: "Пароль и подтверждение должны совпадать"
+            password:
+              blank: "Пароль не должен быть пустым"
+            reset_password_token:
+              invalid: "Данная ссылка на смену пароля устарела"

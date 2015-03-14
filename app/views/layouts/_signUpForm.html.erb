@@ -2,31 +2,32 @@
 
   <div class="field">
     <%= f.label t(:first_name) %><br />
-    <%= f.text_field 'firstName', value:'', autofocus: true, style:"width:100%;", :placeholder => t(:first_name) %>
+    <%= f.text_field 'firstName', class: 'form-control', value:'', autofocus: true, style:"width:100%;", :placeholder => t(:first_name) %>
   </div>
 
   <div class="field">
     <%= f.label t(:last_name) %><br />
-    <%= f.text_field 'lastName', value:'', autofocus: true, style:"width:100%;", :placeholder => t(:last_name) %>
+    <%= f.text_field 'lastName', class: 'form-control', value:'', autofocus: true, style:"width:100%;", :placeholder => t(:last_name) %>
   </div>
 
   <div class="field">
     <%= f.label t(:email) %><br />
-    <%= f.email_field :email, autofocus: true, style:"width:100%;", :placeholder => t(:email)  %>
+    <%= f.email_field :email, class: 'form-control', autofocus: true, style:"width:100%;", :placeholder => t(:email)  %>
   </div>
 
   <div class="field">
     <%= f.label t(:password) %><br />
-    <%= f.password_field :password, autocomplete: "off", style:"width:100%;", :placeholder => t(:password)  %>
+    <%= f.password_field :password, class: 'form-control',  autocomplete: "off", style:"width:100%;", :placeholder => t(:password)  %>
   </div>
 
   <div class="field">
     <%= f.label t(:password_confirmation) %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "off", style:"width:100%;", :placeholder => t(:password_confirmation)  %>
+    <%= f.password_field :password_confirmation, class: 'form-control', autocomplete: "off", style:"width:100%;", :placeholder => t(:password_confirmation)  %>
   </div>
 
   <br/>
   <button class="btn btn-primary" onclick="$('#loadingCreate').show();" style="width: 100%;">
     <%= t(:signUp) %>
   </button>
+
 <% end %>

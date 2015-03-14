@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   #resources
   resources :user do
     post :login, on: :collection
+    post :reset_password, on: :collection
   end
 
   #Own errors routes

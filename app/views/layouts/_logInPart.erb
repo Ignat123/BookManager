@@ -8,14 +8,14 @@
         <h2 class="modal-title" style="text-align: center;"><%= t(:login) %></h2>
       </div>
       <div class="modal-body">
-        <div id="logInErrorsArea", style="display: none;">
+        <div class="alert alert-danger" id="logInErrorsArea", style="display: none;">
           <h3 class="error_label"><%= t(:registration_errors) %></h3>
-          <div class="error_div" id="logInErrors">
+          <div id="logInErrors">
           </div>
-          <hr>
         </div>
         <h3><%= t(:fill_fields) %></h3>
         <%= render partial: "layouts/logInForm" %>
+        <%= render partial: "layouts/resetPasswordPart" %>
       </div>
       <img id="loadingLogIn" src="<%= image_url "loading.gif" %>", style="margin-left:32%; display:none;" />
       <div class="modal-footer">

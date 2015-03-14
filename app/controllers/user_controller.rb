@@ -1,4 +1,4 @@
-class UserController < ActionController::Base
+class UserController < ApplicationController
 
   include UserHelper, LocaleProvider
 
@@ -27,6 +27,17 @@ class UserController < ActionController::Base
     end
     respond_to do |format|
       format.html { redirect_to login_path}
+      format.js   {}
+    end
+  end
+
+  def reset_password
+
+    user = User.where(:email => params[:user][:email]).first
+    @error = user.nil? ? t(:no_such_user): ""
+    user.send_reset_password_instructions if @error.blank?
+    respond_to do |format|
+      format.html { redirect_to reset_password_path}
       format.js   {}
     end
   end
