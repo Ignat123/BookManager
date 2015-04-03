@@ -44,7 +44,7 @@ ru:
   new_password: "Новый пароль"
   confirm_new_password: "Подтверждение нового пароля"
   take_a_look_on_errors: "Перед продолжением обратите внимание на данные ошибки"
-
+  snake: "Змейка"
 
   activerecord:
     errors:

@@ -1,6 +1,11 @@
-<ul style="margin-left: -30%;">
-  <h1>Our users:</h1>
-  <% @users.each do |u| %>
-    <li> <%= "Email: #{u.email}, registered at: #{u.created_at}, name: #{u.first_name}, surname:#{u.last_name}" %></li>
-  <% end %>
-</ul>
+<h3><%= t(:snake) %></h3>
+<div id="field" style="width:1000px; height: 1000px; background-color: #5cb85c; margin-left: -50%;">
+  <div id="snake0" style="position:absolute; width:10px; height: 10px; background-color:red;"></div>
+  <div id="fruit" style="position:absolute; width:10px; height: 10px; background-color:darkblue;"></div>
+</div>
+<script>
+  $( document ).ready(function() {
+    play();
+  });
+
+</script>
