@@ -14,7 +14,7 @@ function draw(){
 
 function checkIsAlife(){
   var head = snake[0];
-  for (var i = 1; i < snake.length - 1; i++){
+  for (var i = 1; i < snake.length; i++){
     if (head[0] == snake[i][0] && head[1] == snake[i][1])
       alert('Хватит жрать свой хвост!');
   }
@@ -45,8 +45,8 @@ function move(){
 }
 
 function fruit_collision(){
-  fruitPosition[0] = getRandomInt(0, 100) * 10;
-  fruitPosition[1] = getRandomInt(0, 100) * 10;
+  fruitPosition[0] = getRandomInt(0, 99) * 10;
+  fruitPosition[1] = getRandomInt(0, 99) * 10;
   $("#fruit").css({'margin-left': fruitPosition[0] + 'px'});
   $("#fruit").css({'margin-top': fruitPosition[1] + 'px'});
   $("#field").append("<div id='snake" + snake.length + "'style='position: absolute; width: 10px; height: 10px; background-color: black;'></div>");
