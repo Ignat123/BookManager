@@ -45,6 +45,15 @@ ru:
   confirm_new_password: "Подтверждение нового пароля"
   take_a_look_on_errors: "Перед продолжением обратите внимание на данные ошибки"
   snake: "Змейка"
+  please_log_in: "Для доступа к функционалу сайта пожалуйста, войдите под своей учётной записью."
+  your_browser_doesnt_support_audio: "Ваш браузер не поддерживает воспроизведение данного аудио элемента."
+  find_on_vk: "Найти в вк!"
+  load_song: "Загрузить мелодию:"
+  full_song_information: "Заполните данные о мелодии."
+  song_name: "Имя мелодии"
+  song_url: "Полный адрес мелодии."
+  delete: "Удалить"
+  are_you_sure: "Вы уверены?"
 
   activerecord:
     errors:

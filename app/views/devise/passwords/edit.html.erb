@@ -1,5 +1,5 @@
-<div class="jumbotron" style="margin-left:-50%; width: 120%;" role="alert">
-  <div style="margin-left: 5%;">
+<div class="jumbotron" style="margin-left:-50%;" role="alert">
+  <div style="margin-left: 45%;">
   <h2 style="text-align: center;"><%= t(:change_your_password) %></h2>
   <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
     <%= devise_error_messages! %>

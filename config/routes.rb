@@ -20,6 +20,9 @@ Rails.application.routes.draw do
     post :reset_password, on: :collection
   end
 
+  resources :song
+  resources :like
+
   #Own errors routes
   #match '/404', to: 'errors#file_not_found', via: :all
   #match '/422', to: 'errors#unprocessable', via: :all

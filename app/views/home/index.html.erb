@@ -1,4 +1,7 @@
-<h3><%= t(:snake) %></h3>
+<!--
+<h3>
+<
+%= t(:snake) %></h3>
 <div id="field" style="width:1000px; height: 1000px; background-color: #5cb85c; margin-left: -50%;">
   <div id="snake0" style="position:absolute; width:10px; height: 10px; background-color:red;"></div>
   <div id="fruit" style="position:absolute; width:10px; height: 10px; background-color:darkblue;"></div>
@@ -8,3 +11,22 @@
     play();
   });
 </script>
+-->
+<% if user_signed_in? %>
+  <%= render partial: "layouts/loadSong" %>
+  <br/>
+  <% Song.all.each do |song| %>
+    <hr/>
+    <audio controls>
+      <source src='<%= song.source_url %>' type="audio/ogg">
+      <%= t(:your_browser_doesnt_support_audio) %>
+    </audio>
+    <%= "(#{song.likes.all.sum :value})" %>
+    <%= link_to "+", new_like_path(:value => 1, :song_id => song.id) %>
+    <%= link_to "-", new_like_path(:value => -1, :song_id => song.id) %>
+    <a href="http://vk.com/search?c[q]=<%= song.name %>&c[section]=audio "><%= t(:find_on_vk) %></a>
+    <%= link_to "#{t(:delete)}", song_path(song), method: :delete, data: { confirm: "#{t(:are_you_sure)}" } %>
+  <% end %>
+<% else %>
+  <h1 style="text-align: center;"><%= t(:please_log_in) %></h1>
+<% end %>

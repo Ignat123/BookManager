@@ -1,0 +1,18 @@
+<a data-toggle="collapse" data-target="#collapseLoadSong">
+  <%= t(:load_song) %>
+</a>
+
+<div id="collapseLoadSong" class="collapse">
+  <br/>
+  <%= form_for :song, url: song_index_path do |f| %>
+  <div class="field">
+    <b><%= t(:full_song_information) %></b><br />
+    <%= f.text_field :name, class: 'form-control',  style:"width:50%;", :placeholder => t(:song_name) %>
+    <%= f.text_field :source_url, class: 'form-control',  style:"width:50%;", :placeholder => t(:song_url) %>
+  </div>
+    <br/>
+    <button class="btn btn-primary" onclick="$('#loadingLogIn').show();">
+      <%= t(:load_song) %>
+    </button>
+  <% end %>
+</div>
