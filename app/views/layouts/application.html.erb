@@ -6,12 +6,26 @@
     <%= render partial: "layouts/stylesAndScripts" %>
   </head>
 
-  <body>
+  <body class="backgrounder">
 
     <%= render partial: "layouts/navbar" %>
 
     <div>
+      <div class="curved-block">
+        <p class="citate shadowed" style="text-align: center;"><%= t(:profile_collection) %></p>
+      </div>
+      <div class="secondary-curved-block">
+        <p class="visit-card shadowed"><%= t(:lone_site) %></p>
+      </div>
       <%= yield %>
+      <div class="top-secondary-curved-block">
+        <p class="visit-card shadowed" style="margin-right: 50px;"><%= t(:contact) %></p>
+      </div>
+      <div class="top-curved-block" style="height: 100%;">
+        <p class="citate shadowed" style="text-align: center;"><%= t(:contact_info_phone) %></p>
+        <p class="citate shadowed" style="text-align: center;"><%= t(:contact_info_skype) %></p>
+        <p class="citate shadowed" style="text-align: center;"><%= t(:contact_infoe_email) %></p>
+      </div>
     </div>
 
   </body>

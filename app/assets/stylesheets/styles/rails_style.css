@@ -1,0 +1,42 @@
+.nav.navbar-inverse{
+    background-color: #C84C4C;
+    border-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav > li >a:hover {
+    color: wheat !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a {
+    background-color: #D13737 !important;
+}
+
+.dropdown-menu > li > a{
+    color: black !important;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #F2D9EF !important;
+    color: #000000 !important;
+}
+
+.curved-block, .secondary-curved-block, .top-curved-block, .top-secondary-curved-block {
+    background-color: #C84C4C;
+}
+
+.citate, .visit-card {
+    color: wheat !important;
+}
+
+.text-colorized {
+    text-shadow: 1px 2px rgb(237, 200, 200);
+    color: rgb(106, 106, 106) !important;
+}
+
+.backgrounder {
+    background-color: rgba(255, 228, 228, 1);
+}

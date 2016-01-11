@@ -1,7 +1,7 @@
+
 <!--
 <h3>
-<
-%= t(:snake) %></h3>
+<%= t(:snake) %></h3>
 <div id="field" style="width:1000px; height: 1000px; background-color: #5cb85c; margin-left: -50%;">
   <div id="snake0" style="position:absolute; width:10px; height: 10px; background-color:red;"></div>
   <div id="fruit" style="position:absolute; width:10px; height: 10px; background-color:darkblue;"></div>
@@ -11,7 +11,6 @@
     play();
   });
 </script>
--->
 <% if user_signed_in? %>
   <%= render partial: "layouts/loadSong" %>
   <br/>
@@ -30,3 +29,81 @@
 <% else %>
   <h1 style="text-align: center;"><%= t(:please_log_in) %></h1>
 <% end %>
+-->
+<%= render partial: "carousel" %>
+<br/>
+<h3 class="text-colorized" style="font-size: 35px; text-align: center;">
+  Коротко о главном:
+</h3>
+<br/>
+<h4 class="text-colorized" style="font-size: 25px; font-style: italic; text-decoration: underline;">
+  Обо мне, разумеется:
+</h4>
+
+<div style="display: inline-block">
+    <figure class="l left">
+      <img style="width: 200px; height: 300px;" src="https://pp.vk.me/c411129/v411129243/85da/cJygD2g2onc.jpg" alt="Sarcasm">
+    </figure>
+    <p>  Разрешите представиться, Емельянов Игнат. Некоторые культурные люди люди обращаются ко мне по имени моего отца - Геннадьевич,
+    другие же считают, что я ещё не дорос до Геннадьевича, но есть ещё и те, что не упускают возможность напомнить мне о последнем. Чтобы не усугублять путаницу, зовите меня просто - Игнат. Мне будет приятно, а
+    вам придётся меньше запоминать.
+    </p>
+    <p>Мне 21 год, и на сегодняшний день я <i style="text-decoration: line-through;">тунеядец</i> студент пятого кура Белоруского
+    государственного университета Информатики и Радиоэлекторники факультета Компьютерных Систем и Сетей, специальности "Информатика и
+    технологии программирования".
+    Если вас ещё не тошнит от меня, подробнее обо мне вы можете узнать тут.</p>
+</div>
+<br/>
+<h4 class="text-colorized" style="font-size: 25px; font-style: italic; text-decoration: underline;">
+  О популярном платформере:
+</h4>
+<div style="display: inline-block">
+  <figure class="r right">
+    <img style="width: 200px; height: 100px;" src="https://pp.vk.me/c633126/v633126243/afdc/NgIWQwJCBfQ.jpg" alt="Lario Main Menu logo">
+  </figure>
+  <p>
+    Как, вы о нём ещё не слышали? Не удивительно, ведь он не популярный. Я просто решил использовать смелый заголовок.
+  </p>
+  <p>
+    Данная игра была разработана в качестве курсового проекта по дисциплине "Основы ООП" на втором курсе.
+    После успешной защиты она была выложена в сеть на сайте small-games.info, где скорее всего лежит и по сегодняшний день.
+    К моему удивлению, по ней было сделано немало летсплеев. И буквально около года назад мой знакомый попросил меня показать
+    ему свою игру, и первый ролик на ютубе по моей игре собрал свыше миллиона просмотров! Эх, жаль имени в титрах не указал.
+  </p>
+  <p>Впринципе, титры я тоже не делал.</p>
+  <p>Узнать о ней побольше вы можете тут.</p>
+</div>
+
+<h4 class="text-colorized" style="font-size: 25px; font-style: italic; text-decoration: underline;">
+  О детской любви к хоррорам:
+</h4>
+
+<div style="display: inline-block">
+  <figure class="l left">
+    <img style="width: 200px; height: 150px;" src="https://pp.vk.me/c633126/v633126243/b013/US2Y3YIBG7s.jpg" alt="Face">
+  </figure>
+  <p>
+    Данная игра - "SCP XXXi - богом забытое место" была разработана летом 2012ого года, между первым и вторым курсом.
+  </p>
+  <p>
+    Разрабатывалась она под влиянием выходивших тогда хорроров, таких как SCP и Slenderman.
+    В отличии от большинства игр данного жанра в моей был хоть какой, но сюжет.
+    Если хотите узнать о ней побольше, то вам сюда.
+  </p>
+</div>
+
+<h4 class="text-colorized" style="font-size: 25px; font-style: italic; text-decoration: underline;">
+  О неумении структурировать
+</h4>
+
+<div style="display: inline-block">
+  <figure class="l left">
+    <img style="width: 200px; height: 150px;" src="https://pp.vk.me/c633126/v633126243/af17/Drp8q7Oob2E.jpg" alt="Upstge">
+  </figure>
+  <p>
+    Сюда я помещу ещё немного информации о проектах, над которыми мне приходилось работать.
+  </p>
+  <p>
+  Вы не нашли ссылку? Тогда вы скорее всего плохо читали предложение, шедшее за предыдушим.
+</p>
+</div>

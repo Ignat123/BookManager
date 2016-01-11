@@ -1,9 +1,6 @@
-<ul class="nav navbar-nav navbar-left">
+<ul class="nav navbar-nav navbar-left" style="margin-left: 35%;">
   <%= render partial: "layouts/cookiesDropdown", locals: {:dropdownsName => t(:language), :dropdownsCookie => "lang",
     :firstValue => "en", :secondValue => "ru", :firstName => t(:english), :secondName => t(:russian)} %>
-  <!--
-  <
-  %= render partial: "layouts/cookiesDropdown", locals: {:dropdownsName => t(:theme), :dropdownsCookie => "theme",
+  <%= render partial: "layouts/cookiesDropdown", locals: {:dropdownsName => t(:theme), :dropdownsCookie => "theme",
     :firstValue => "white", :secondValue => "golden", :firstName => t(:white), :secondName => t(:golden)} %>
-  -->
 </ul>
