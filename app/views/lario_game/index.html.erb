@@ -2,7 +2,7 @@
   Die Lario, DIE!!!
 </h3>
 
-<div id="carousel-example-generic" style="margin-top: 15px;" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" style="background-color: white; background-image: url('https://www.dropbox.com/s/7hqpwuh4hnczxz5/89809b15daf9.png?dl=1'); background-size: 100% 100%;margin-top: 15px;" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -40,72 +40,112 @@
 </div>
 
 <h3 class="text-colorized" style="font-size: 35px; text-align: center;">
-  История появления:
+  <%= t(:history_of_creating) %>
 </h3>
 <p class="margined">
-  С тех пор как вышел Марио многие разработчики только и делали, что лепили нескончаемым
-  потоком клоны Марио, один сложнее другого. Самые сильные из них - 'suibon action' и 'i wanna
-  be the guy'.
+  <%= t(:mario_go_out) %>
 </p>
 <p class="margined">
-  После ознакомления с толпами игр данного типа, мне в голову пришла мысль - а почему бы не создать
-  клон Марио, в котором сложность будет не в том, чтобы пройти уровень, не умерев, а как - раз таки в
-   том, чтобы не пройти уровень. Ведь чтобы пройти уровень игры, нужно лишь научиться вовремя
-  нажимать кнопки. А вот чтобы его запароть так, как хотел автор, необходимо немного подумать
-  и собрать воедино подсказки, оставленные самим разработчиком.
+  <%= t(:mario_games_knowleges) %>
 </p>
 <p class="margined">
-  При этом игрок должен быть достаточно сообразительным, чтобы отличить сбивающие подсказки от
-  направляющих.
+  <%= t(:player_must) %>
 </p>
 <p class="margined">
-  Так собственно и появилась идея очередного клона Марио, с необычной для механики целью.
+  <%= t(:idea_creating) %>
 </p>
-<br/>
 <h3 class="text-colorized" style="font-size: 35px; text-align: center;">
-  Сюжет игры:
+  <%= t(:game_plot) %>
 </h3>
-<p>
-  Сюжет игры рассказывает об одиноком торговце - миллионере, который однажды взял свои деньги и вложил
-   в крупное дело по закупке бочек нефти. И вот, когда он перевозил товар, на него напали ребята и
-  уничтожили весь его товар. Опечаленный данным исходом наш герой пытается не пройти уровень, а завалить,
-  и только в наших силах помочь ему!
+<p class="margined">
+  <%= t(:plot_of_lario) %>
+</p>
+<p class="margined">
+  <%= t(:principles) %>
 </p>
 
 <h3 class="text-colorized" style="font-size: 35px; text-align: center;">
-  Видео - миллионник:
+  <%= t(:trailer) %>
 </h3>
 
-<object width="420" height="315"
-        data="https://www.youtube.com/watch?v=dI3OPoW7-ns">
-</object>
-
-<iframe width="420" height="315"
-        src="https://www.youtube.com/watch?v=FnAvhzMCbqQ">
+<iframe width="640" height="420" style="display: block;margin-left: auto; margin-right: auto;"
+        src="https://www.youtube.com/embed/FnAvhzMCbqQ">
 </iframe>
 
 <h3 class="text-colorized" style="font-size: 35px; text-align: center;">
-  Интересные факты:
+    <%= t(:characters_list) %>
+</h3>
+
+<figure class="l left" style="margin-left: 10px;">
+    <img src="https://www.dropbox.com/s/dq9ucte6vp96rze/Player.gif?dl=1">
+  </figure>
+<p class="text-colorized" style="font-size: 30px; margin-top: -5px;"> Lario</p>
+<p class="margined"><%= t(:hero_description) %></p>
+
+
+<figure class="l left"style="margin-left: 10px;">
+  <img src="https://www.dropbox.com/s/rcze9yebq0y0doq/Swompy.gif?dl=1">
+</figure>
+<p class="text-colorized" style="font-size: 30px; margin-top: 5px;"> Swompy</p>
+
+
+<p class="margined"><%= t(:first_enemy) %></p>
+<p class="margined"><%= t(:two_swompie) %></p>
+
+<figure class="l left" style="margin-left: 10px;">
+  <img src="https://www.dropbox.com/s/k14llgc0md0i5cj/Ninja.gif?dl=1">
+</figure>
+<p class="text-colorized" style="font-size: 30px;"> Ninja</p>
+
+<p class="margined"><%= t(:second_enemy) %></p>
+<p class="margined"><%= t(:ninjas_head) %></p>
+<p class="margined"><%= t(:ninja_was) %></p>
+
+  <figure class="l left" style="margin-left: 10px;">
+    <img src="https://www.dropbox.com/s/x0mr9hd56w2q9o9/Bomb.gif?dl=1">
+  </figure>
+  <p class="text-colorized" style="font-size: 30px; margin-bottom: -10px;"> Bomb</p>
+<br/>
+
+<p class="margined"><%= t(:bomb_description) %></p>
+
+<figure class="l left">
+  <img style="height: 80px; width: 60px;" src="https://www.dropbox.com/s/6fm27osj7rw6u4n/8Mo24Svf7zc.png?dl=1">
+</figure>
+<p class="text-colorized" style="font-size: 30px; margin-bottom: -10px;"> Chuck Norris</p>
+<br/>
+<p class="margined">
+  <%= t(:chuck_description) %>
+</p>
+
+<h3 class="text-colorized" style="font-size: 35px; text-align: center;">
+  <%= t(:million_video) %>
+</h3>
+<iframe width="640" height="420" style="display: block;margin-left: auto; margin-right: auto;"
+        src="https://www.youtube.com/embed/dI3OPoW7-ns">
+</iframe>
+<br/>
+<p class="margined">
+  <%= t(:video_about) %>
+</p>
+
+<h3 class="text-colorized" style="font-size: 35px; text-align: center;">
+  <%= t(:interesting_facts) %>
 </h3>
 <ul>
   <li>
-    В отличии от Марио, который разбивает блоки кулаком, Ларио разбивает их головой.
-    Во время анимации прыжка можно рассмотреть, как Ларио снимает шапку и держит её в руках.
+    <%= t(:mario_diff) %>
   </li>
   <li>
-    В игре присутствуют ролики. В самом начале игры, в главном меню, и в двух концовках.
+    <%= t(:rolling_face) %>
   </li>
   <li>
-    Крутящееся лицо во время вступительного ролика принадлежит герою учебника по английскому для ВУЗов,
-    который по доброте душевной подарил лотерейный билет своему другу, после чего билет оказался выигрышным.
+    <%= t(:swompie_smile) %>
   </li>
   <li>
-    Враг Swompy при подкидывании на секунду улыбается. Когда же гравитация берёт своё обратно, он возвращается
-     к унылому состоянию.
+    <%= t(:bad_ending) %>
   </li>
   <li>
-    Для плохой концовки надо добраться в самую крайнюю правую часть уровня.
-    После чего на весь экран выведется картинка синего экрана смерти. Но её можно закрыть,
-    выключив игру в диспетчере задач.
-  </li>
+    <%= t(:vsync) %>
+    </li>
 </ul>

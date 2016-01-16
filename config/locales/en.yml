@@ -21,21 +21,63 @@
 
 en:
   language: "Language"
+  mario_go_out: "
+    Since Mario game was published first time a lot of developers just create a endless flow of mario clones,
+    ,one more difficult than another. The most powerful of them -  it 'suibon action' and 'i wanna
+       be the guy '."
+  mario_games_knowleges: "
+    After getting acquainted with the crowds games of this type, I got the idea - why not create a
+     Mario clone in which the difficulty is not to pass the level without dying. The difficulty - its pass WITH dying. After all, all, what we need to pass ordinary mario game - it just to learn
+     necessary buttons time ticks. But there the the important part - it's understand what developer
+     want from you, think as him, do as he thought."
+  player_must: "The player must be smart enough to distinguish hints from knocking developers guides."
+  game_plot: "Plot of Game:"
   russian: "Russian"
   english: "English"
   signOut: "Sign out"
+  principles: "In principle, you did not need to read about it. Intro movie tells all about this."
+  plot_of_lario: "
+  The game's plot is telling to us history of the lone trader - millionaires, who once took all his money and invested
+  it a major case for the purchase of barrels of oil. And when he was transporting the goods, he was attacked by enemy, who
+  was destroyed all of Lario's goods. Saddened after that, our hero tries not to pass the level and lose the game,
+  and only we can help him with his impossible task!"
+  idea_creating: "So that's how idea about unusual Mario clone was born."
   signUp: "Sign up"
   login: "Log in"
   theme: "Theme"
+  history_of_creating: "The history of idea:"
   agains_dest: "Will you be able to go against you own destiny?"
   scp_gods: "SCP: Gods Forsaken Place"
   fears: "Dare you to look into bloody eyes of your fears, didn't you?"
   stuff: "Other stuff"
+  chuck_description: "The character, who appears in the final movie of the game. He will be summon, if player knocks the bad word with such letters-cubes, as 'S', 'K', 'U', 'C'."
+  million_video: "Video with million of views"
+  trailer: "Trailer"
+  rolling_face: "Twisting face during the opening sequence belongs to the hero of the textbook of English for Universities. The hero has kindness to give a lottery ticket for friend, but this ticket became a winning with large prize."
+  mario_diff: "Unlike of Mario, who smashes blocks with his own fists, Lario crash their with his head. During the jump animations can be considered as Lario removes the cap and holds it in his hands."
+  swompie_smile: "The Enemy Swampy when jump on player head and fly up for a moment became smiling. When gravity takes its back, it comes back to a dull state."
+  video_about: "Disclaimer: Video of my game were able to collect more than a million views! This means that several hundreds of thousands of users, and a couple of hundreds of thousands of bots look at my game. That is some reason for pride. Of course, in fact, to blame of this was fall on letsplayer and community. Chances are after this game he overlooked some - a simulator of going to the toilet or eating insects. But I still proud."
+  bomb_description: "Character relating neutral to everything except gravity, blocks and pipes. In conjunction with the recent blows. However, the explosion did not affect anyone but the pipes. Apparently, as a child he was very offended by pipes."
+  ninjas_head: "If Lario jumps on Ninjas head, Ninja just protect himself with his sword, and player will bounce back."
+  characters_list: "Characters List"
+  interesting_facts: "Fast facts:"
+  vsync: "The table in the beggining of game than require to press F11/F12 to fix performance just turn off/on Vsync."
+  ninja_was: "Exactly ninja was who planted the bomb on Larios cart."
+  hero_description: "The main hero of game. Able jump. Doesn't able to die."
   projects: "In which im take part."
+  bad_ending: "For the bad ending you must go to the most rightly part of the level. After that player was see short movie and on whole screen was player image of blue screen of death. But you able to close it, with program-manager, or just pressed ALT+F4. Some of gamers complain that this game crashed their computers and run BSOD, but we know the truth - in BSOD at least colliers stop working."
   other_projects: "About my other projects:"
   about_platformer: "About the popular platformer:"
+  first_enemy: "The first opponent is the protagonist meets in this game.
+  Ignore a direct clash with the player, but can die if
+  the player will jump on his head or fly up, if jump on players head."
+  second_enemy: "The second, and perhaps the last opponent.
+  In a collision with a player does not allow him to go further and
+  the player is able to hit the leg, then fly away in Lario
+  the opposite direction of the Ninja."
   dont_hear: "You didn't heard about it? Not surprisingly, he doens't popular at all. I just decided to use a bold headline."
   white: "Rail-like"
+  two_swompie: "2 of them take involvement in destroying of Lario's cart."
   about_me: "About me, of course:"
   snake_game: "And of course, js game about snake:"
   library: "After all, if we want to read a lot, we probably would have go to the library"
