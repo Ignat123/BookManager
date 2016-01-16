@@ -9,7 +9,9 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img class="centered_image" src="https://pp.vk.me/c631131/v631131243/ec6e/osSNWhT_4_E.jpg"alt="Die Lario, DIE">
+      <%= link_to  lario_game_index_path do %>
+        <img class="centered_image" src="https://pp.vk.me/c631131/v631131243/ec6e/osSNWhT_4_E.jpg"alt="Die Lario, DIE">
+      <% end %>
       <div class="carousel-caption">
         <h3 class="shadowed" style="font-size: 40px;"> Die Lario, DIE!</h3>
         <h4 class="shadowed"><%= t(:agains_dest) %></h4>

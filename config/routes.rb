@@ -25,6 +25,7 @@ Rails.application.routes.draw do
 
 
   resources :about_me, only: [:index]
+  resources :lario_game, only: [:index]
 
   #Own errors routes
   #match '/404', to: 'errors#file_not_found', via: :all

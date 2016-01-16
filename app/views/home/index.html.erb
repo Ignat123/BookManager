@@ -51,7 +51,9 @@
 <img  style="display: block; margin-left: auto; margin-right: auto;" src="https://www.dropbox.com/s/osquh7a5zhki0bn/waka.png?dl=1" alt="hr-line" width="442" height="35">
 <div style="display: inline-block">
   <figure class="r right">
-    <img class="rounded" style="width: 300px; height: 150px;" src="https://pp.vk.me/c633126/v633126243/afdc/NgIWQwJCBfQ.jpg" alt="Lario Main Menu logo">
+    <%= link_to  lario_game_index_path do %>
+        <img class="rounded" style="width: 300px; height: 150px;" src="https://pp.vk.me/c633126/v633126243/afdc/NgIWQwJCBfQ.jpg" alt="Lario Main Menu logo">
+    <% end %>
   </figure>
   <p class=" margined">
     <%= t(:dont_hear) %>
@@ -60,7 +62,7 @@
     <%= t(:platformer_game_story) %>
   </p>
   <p class=" margined"><%= t(:platformer_credits) %></p>
-  <p class=" margined"><%= t(:platformer_read_more) %> <%= link_to t(:here), about_me_index_path %>.</p>
+  <p class=" margined"><%= t(:platformer_read_more) %> <%= link_to t(:here), lario_game_index_path %>.</p>
 </div>
 
 <h4 class="text-colorized margined" style="font-size: 25px; font-style: italic; text-decoration: underline;">
