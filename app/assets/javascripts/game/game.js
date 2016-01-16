@@ -49,7 +49,7 @@ function fruit_collision(){
   fruitPosition[1] = getRandomInt(0, 98) * 10;
   $("#fruit").css({'margin-left': fruitPosition[0] + 'px'});
   $("#fruit").css({'margin-top': fruitPosition[1] + 'px'});
-  $("#field").append("<div id='snake" + snake.length + "'style='position: absolute; width: 10px; height: 10px; background-color: black;'></div>");
+  $("#field").append("<div id='snake" + snake.length + "'style='position: absolute; width: 10px; height: 10px; background-color: #5cb85c;'></div>");
   var tail = snake[snake.length - 1];
   snake.push([tail[0], tail[1], tail[0],tail[1]]);
 }
