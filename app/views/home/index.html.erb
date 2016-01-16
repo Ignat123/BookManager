@@ -1,16 +1,6 @@
 
 <!--
-<h3>
-<%= t(:snake) %></h3>
-<div id="field" style="width:1000px; height: 1000px; background-color: #5cb85c; margin-left: -50%;">
-  <div id="snake0" style="position:absolute; width:10px; height: 10px; background-color:red;"></div>
-  <div id="fruit" style="position:absolute; width:10px; height: 10px; background-color:darkblue;"></div>
-</div>
-<script>
-  $( document ).ready(function() {
-    play();
-  });
-</script>
+
 <% if user_signed_in? %>
   <%= render partial: "layouts/loadSong" %>
   <br/>
@@ -30,7 +20,6 @@
   <h1 style="text-align: center;"><%= t(:please_log_in) %></h1>
 <% end %>
 -->
-<%= render partial: "carousel" %>
 <br/>
 <h3 class="text-colorized" style="font-size: 35px; text-align: center;">
   Коротко о главном:
@@ -51,10 +40,10 @@
     <p>Мне 21 год, и на сегодняшний день я <i style="text-decoration: line-through;">тунеядец</i> студент пятого кура Белоруского
     государственного университета Информатики и Радиоэлекторники факультета Компьютерных Систем и Сетей, специальности "Информатика и
     технологии программирования".
-    Если вас ещё не тошнит от меня, подробнее обо мне вы можете узнать тут.</p>
+    Если вас ещё не тошнит от меня, подробнее обо мне вы можете узнать <%= link_to t(:here), about_me_index_path %>.</p>
 </div>
 <br/>
-<h4 class="text-colorized" style="font-size: 25px; font-style: italic; text-decoration: underline;">
+<h4 class="text-colorized" style="font-size: 25px; font-style: italic; text-decoration: underline; text-align: right !important;">
   О популярном платформере:
 </h4>
 <div style="display: inline-block">
@@ -71,7 +60,7 @@
     ему свою игру, и первый ролик на ютубе по моей игре собрал свыше миллиона просмотров! Эх, жаль имени в титрах не указал.
   </p>
   <p>Впринципе, титры я тоже не делал.</p>
-  <p>Узнать о ней побольше вы можете тут.</p>
+  <p>Узнать о ней побольше вы можете <%= link_to t(:here), about_me_index_path %>.</p>
 </div>
 
 <h4 class="text-colorized" style="font-size: 25px; font-style: italic; text-decoration: underline;">
@@ -88,7 +77,7 @@
   <p>
     Разрабатывалась она под влиянием выходивших тогда хорроров, таких как SCP и Slenderman.
     В отличии от большинства игр данного жанра в моей был хоть какой, но сюжет.
-    Если хотите узнать о ней побольше, то вам сюда.
+    Если хотите узнать о ней побольше, то вам <%= link_to t(:here_1), about_me_index_path %>.
   </p>
 </div>
 
@@ -101,9 +90,27 @@
     <img style="width: 200px; height: 150px;" src="https://pp.vk.me/c633126/v633126243/af17/Drp8q7Oob2E.jpg" alt="Upstge">
   </figure>
   <p>
-    Сюда я помещу ещё немного информации о проектах, над которыми мне приходилось работать.
+    <%= link_to t(:here_2), about_me_index_path %> я помещу ещё немного информации о проектах, над которыми мне приходилось работать.
   </p>
-  <p>
-  Вы не нашли ссылку? Тогда вы скорее всего плохо читали предложение, шедшее за предыдушим.
-</p>
 </div>
+<br/>
+
+<h3 class="text-colorized" style="font-size: 35px; text-align: center;">
+  Ну, и конечно же, змейка:
+</h3>
+
+<h4 class="text-colorized" style="font-size: 25px;">
+  Ведь если бы мы хотели много читать, мы скорее всего пошли бы в библиотеку, не так ли?
+</h4>
+
+<div id="field" style="width:1000px; height: 1000px; background-color: #5cb85c; margin-left: auto; margin-right: auto;">
+  <div id="snake0" style="position:absolute; width:10px; height: 10px; background-color:red;"></div>
+  <div id="fruit" style="position:absolute; width:10px; height: 10px; background-color:darkblue;"></div>
+</div>
+</div>
+<script>
+    $( document ).ready(function() {
+        play();
+    });
+</script>
+<br/>
