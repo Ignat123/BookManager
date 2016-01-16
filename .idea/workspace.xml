@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="996f9255-7018-47ac-849d-e091c7d37760" name="Default" comment="Trying to use bootstrap.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/default_style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/about_me/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_stylesAndScripts.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_stylesAndScripts.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles/rails_style.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/rails_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ru.yml" afterPath="$PROJECT_DIR$/config/locales/ru.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <list id="6dc5c9d7-ca97-455a-8ce4-c31574a8b1af" name="New changelist" comment="" />
     <ignored path="BookManager.iws" />
@@ -63,11 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_stylesAndScripts.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_stylesAndScripts.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_stylesAndScripts.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17979452" vertical-offset="0" max-vertical-offset="584">
+            <state vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="225">
               <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9506579" vertical-offset="637" max-vertical-offset="1305">
+              <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -123,16 +125,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="1305">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_dropdownsPart.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_dropdownsPart.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,7 +140,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="585">
               <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-              <folding />
+              <folding>
+                <element signature="n#t(:contact_info_phone)#0;n#!!top" expanded="false" />
+                <element signature="n#t(:contact_info_skype)#0;n#!!top" expanded="false" />
+                <element signature="n#t(:contact_infoe_email)#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,7 +189,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/audio/mediaelement-and-player.min.js" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150517143654_create_songs.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_loadSong.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/song_controller.rb" />
@@ -221,6 +216,7 @@
         <option value="$PROJECT_DIR$/config/locales/ru.yml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/styles/default_style.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/_stylesAndScripts.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -552,7 +548,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="production.&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/environments/production.rb&#10;applica&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/application.rb&#10;application.rb&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/application.rb&#10;gemfile&#9;FILE&#9;file:///home/ignat/Host/BookManager/Gemfile&#10;mailer&#9;FILE&#9;file:///var/lib/gems/1.9.1/gems/devise-3.4.1/app/mailers/devise/mailer.rb&#10;actionm&#9;FILE&#9;file:///usr/lib/ruby/vendor_ruby/action_mailer.rb&#10;actionma&#9;null&#9;null&#10;conf&#9;FILE&#9;file:///home/ignat/Host/BookManager/config.ru&#10;config&#9;null&#9;null&#10;Mailer&#9;null&#9;null&#10;devise.rb&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/initializers/devise.rb&#10;datab&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/database.yml&#10;DA&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/database.yml&#10;applic&#9;FILE&#9;file:///home/ignat/Host/BookManager/app/controllers/application_controller.rb&#10;development.rb&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/environments/development.rb&#10;applicat&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/application.rb&#10;dev&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/initializers/devise.rb&#10;data&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/database.yml&#10;databas&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/database.yml" />
+    <property name="SearchEverywhereHistoryKey" value="produ&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/environments/production.rb&#10;production.&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/environments/production.rb&#10;applica&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/application.rb&#10;application.rb&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/application.rb&#10;gemfile&#9;FILE&#9;file:///home/ignat/Host/BookManager/Gemfile&#10;mailer&#9;FILE&#9;file:///var/lib/gems/1.9.1/gems/devise-3.4.1/app/mailers/devise/mailer.rb&#10;actionm&#9;FILE&#9;file:///usr/lib/ruby/vendor_ruby/action_mailer.rb&#10;actionma&#9;null&#9;null&#10;conf&#9;FILE&#9;file:///home/ignat/Host/BookManager/config.ru&#10;config&#9;null&#9;null&#10;Mailer&#9;null&#9;null&#10;devise.rb&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/initializers/devise.rb&#10;datab&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/database.yml&#10;DA&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/database.yml&#10;applic&#9;FILE&#9;file:///home/ignat/Host/BookManager/app/controllers/application_controller.rb&#10;development.rb&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/environments/development.rb&#10;applicat&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/application.rb&#10;dev&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/initializers/devise.rb&#10;data&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/database.yml&#10;databas&#9;FILE&#9;file:///home/ignat/Host/BookManager/config/database.yml" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -865,13 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6885247" vertical-offset="42" max-vertical-offset="1515">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1190,7 +1179,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="585">
           <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding />
+          <folding>
+            <element signature="n#t(:contact_info_phone)#0;n#!!top" expanded="false" />
+            <element signature="n#t(:contact_info_skype)#0;n#!!top" expanded="false" />
+            <element signature="n#t(:contact_infoe_email)#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,8 +1221,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_stylesAndScripts.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17979452" vertical-offset="0" max-vertical-offset="584">
+        <state vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="225">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9506579" vertical-offset="637" max-vertical-offset="1305">
+          <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
           <folding />
         </state>
       </provider>
