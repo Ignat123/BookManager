@@ -45,8 +45,8 @@ function move(){
 }
 
 function fruit_collision(){
-  fruitPosition[0] = getRandomInt(0, 99) * 10;
-  fruitPosition[1] = getRandomInt(0, 99) * 10;
+  fruitPosition[0] = getRandomInt(0, 98) * 10;
+  fruitPosition[1] = getRandomInt(0, 98) * 10;
   $("#fruit").css({'margin-left': fruitPosition[0] + 'px'});
   $("#fruit").css({'margin-top': fruitPosition[1] + 'px'});
   $("#field").append("<div id='snake" + snake.length + "'style='position: absolute; width: 10px; height: 10px; background-color: black;'></div>");
