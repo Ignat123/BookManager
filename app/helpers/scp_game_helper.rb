@@ -1,0 +1,2 @@
+module ScpGameHelper
+end
