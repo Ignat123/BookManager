@@ -144,3 +144,14 @@ figure img {
 .margined {
     margin-left: 10px;
 }
+
+.li_plus {
+    text-shadow: 1px 1px gray;
+    color: white !important;
+    font-family: fantasy;
+}
+
+.li_minus {
+    color: black !important;
+    font-family: fantasy;
+}

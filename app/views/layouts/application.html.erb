@@ -13,7 +13,9 @@
 
     <div>
       <div class="curved-block">
-        <p class="citate shadowed" style="text-align: center;"><%= t(:profile_collection) %></p>
+        <%= link_to home_index_path do %>
+            <p class="citate shadowed" style="text-align: center;"><%= t(:profile_collection) %></p>
+        <% end %>
       </div>
       <div class="secondary-curved-block">
         <p class="visit-card shadowed"><%= t(:lone_site) %></p>

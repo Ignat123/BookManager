@@ -25,6 +25,9 @@ en:
     Since Mario game was published first time a lot of developers just create a endless flow of mario clones,
     ,one more difficult than another. The most powerful of them -  it 'suibon action' and 'i wanna
        be the guy '."
+  me_full: "
+My name Ignat. I'm 21 y.o. At this moment im student of National State University of Informatics and
+RadioElectronics, on Faculty Computer Systems and Networks. My specialization - Informatics."
   mario_games_knowleges: "
     After getting acquainted with the crowds games of this type, I got the idea - why not create a
      Mario clone in which the difficulty is not to pass the level without dying. The difficulty - its pass WITH dying. After all, all, what we need to pass ordinary mario game - it just to learn
@@ -33,8 +36,23 @@ en:
   player_must: "The player must be smart enough to distinguish hints from knocking developers guides."
   game_plot: "Plot of Game:"
   russian: "Russian"
+  responsible: "Responsible"
+  aim_targered: "Purposeful."
+  sence_of_h: "With sense of humor"
+  studable: "Educable"
+  talkative: "Communicative."
   english: "English"
+  military: "Also im studded in military caphedra of BSUIR, and passed military training in summer 2015."
+  pluses: "Lets take a look of my pluses and minuses, than always asking on interview:"
   signOut: "Sign out"
+  onest: "Honest"
+  lisp: "Lisp a little."
+  flagenation: "Extremely self-flagellation."
+  over_taken: "I can take more than I can do."
+  plus: "Pluses"
+  minus: "Minuses"
+  questions_and_answers: "Questions and answers:"
+  saving: "For saving our time, let me answer the most common questions, than hr may ask on interview: (final part isn't translated, because interviews in belorussia passed on russian language)"
   principles: "In principle, you did not need to read about it. Intro movie tells all about this."
   plot_of_lario: "
   The game's plot is telling to us history of the lone trader - millionaires, who once took all his money and invested
@@ -45,11 +63,89 @@ en:
   signUp: "Sign up"
   login: "Log in"
   theme: "Theme"
+  photo_frog: "It just a joke :D"
+  oldman: "SCP-106 - Old man"
   history_of_creating: "The history of idea:"
   agains_dest: "Will you be able to go against you own destiny?"
+  cheshire: "SCP-087-B-3 (Cheshire smile)"
   scp_gods: "SCP: Gods Forsaken Place"
+  wall: "Wall"
+  ab_m: "About me"
+  lone_gameplay: "Gameplay was filmed with bots."
+  player_control: "
+Every player has character, which was controlled by arrows. Also character may flipping with
+WASD keys, rotate with Q or R, shoot with left mouse, create bricks walls with right mouse, jump and
+changing his camera, which may 3 states - moving, rounded or first person looked.
+Also there is chat in game. And opportunity to adding bots."
+  game_aim: "
+The main aim of game - it's pull out enemy from football field. For that player may use balls, which he
+ may shoot directly in enemy. But enemy able to dodge this balls, or create unbreakable wall an hide behind this.
+As a result, with dodging system you able to start break dance party! "
+  upstge_web: "UpStge is a video streaming website designed specifically for musicians and music-lovers."
+  upstge_adv: "Musicians can upload their videos to compete for the 'Main Stage' and more exposure.
+Fans can watch and keep up with their favorite artists."
+  weather: "Also in game was dynamic changing of day and night, and weather. But this was client side featchure."
+  upstge_dev: "A long time period i was one of the developers of Upstge.com. With influence of weak
+financing a while of time i was only lone developer of that resource(but of course, i had two of developers who gives me
+advices and approved or declined my work). After all, we successfully pull out this project in live."
+  net_pull: "
+That game doesn't be pulled in the internet, cause i think peoples can't understand such game.
+But she was playable."
+  comand_shoter: "
+This game was team shooter. In beginning of game player select his name and side of Nehs - blue or dark.
+After that, he must connect to another server, or create his own."
+  gameplay: "Gameplay"
+  first_project: "The first project created on Unity 3D. It created as test project for controls before creating Gods Forsaken Place, but
+ at result this project grown and take client server side gameplay."
+  description: "Description"
+  wall_desc: "Wall with animation of shadows suicide.
+After animation wall was covered by blood, and from blood was message - 'Don't turn back'.
+There is nothing happened, if player turn back, but if he turn back once more, he saw the scrimmer."
+  scp_face: "He is appear in down part of stair. Doesn't interact with player, he just stair directly in player."
+  cheshire_desc: "It appears on unnecessary lade upper from fork, when player go thought the wall and turn back.
+He is always faced front to the player, and laugh with children's voice.
+Where player stay near him, near with face apperas his hands.
+On collision with player face has disappear."
+  lego_fact: "
+The model of Lego man was taken from my another game - Neh tournament."
+  horror_music_fact: "Horror music on oldman appearing was recorded by knocking with fist on desk and using some audio effects on that."
+  tv: "ТV"
+  sculpture: "SCP-173 Sculpture"
+  sculpture_desc: "
+He is appears after passing through main gates. After some walking player was asking to turn back.
+After that player has lose control of his movement. When he turn back, he saw statue. If player
+turn back from statue, he die imminently. But if he continue look straight to statue, he become to
+wink. When player was wink, statue became going to closer from player, and, in final result, finish
+player off. So, there is no happy ending of this game."
+  forsaken_fact: "The game was planned as intro to another large game - Forsaken place, which
+was placed in mind of player. But, after negative feedback of community game wasn't see the world."
+  tv_desc: "
+Is situated in one of the necessary rooms. 40 seconds turn off, but another 10 second he plays
+random scp frame with noise. On of the 5 frames he shows screamer face with 3d modelled than
+hang to player."
+  slend_desc: "
+He appears when player take the card. In room where the player is fall down the sharp, camera has shouting down, and Slender has appears with
+horror music. After some time he is disappears.  "
+  lego_desc: "The body of scp members, laying before main stairs. When player turn on light he
+wake up and make noise with animation. The name 'lego man' appears because i don't won't to
+spend a lot of time for his modelling."
+  scp_history: "In the summer of 2012 there was created games about SCP and Slenderman, than strongly
+shake of a big part community of gamers. In fact, this games was a big peace of crap, but they
+have managed to create around themselves a horde of fans."
   fears: "Dare you to look into bloody eyes of your fears, didn't you?"
   stuff: "Other stuff"
+  oldman_desc: "He is appears in the corridor leading from the main gate to the fork, after than player picks a card. When starting to play horror music, and the camera is subjected with the blur effect. In a collision with a player the player dies. However, player can able to escape from him."
+  scp_story: "
+Main character (you) should lead to the study of the experimental facility. Actually, the game starts in your camera. The sound of a siren voice on the speaker says to the player to wake up and go on a mission. After some time in the area suddenly an accident occurs and the light goes off immediately. Judging by the shouts on the radio, there was a violation of conditions of detention, and all objects fled their cameras; boss tries to settle,
+and heard on the radio as one of the officers killed.."
+  scp_game_beginning: "
+There the game is begin. The main target - it's to find key card, on electricity and get out from here."
+  before_scp: "Before that i work with Game Maker And TAO.
+Game Maker was commercial software (on 2012 year), and tao was kindle of hardly to
+understanding."
+  unity_try: "So, i want to try write mainstream game on Unity, but with plot"
+  scp_common: "This games was similar with tho thing - fist at all: they be horrors, and secondary -
+they were written on Unity 3D. So, it's be very interesting to me - what is like that Unity 3D."
   chuck_description: "The character, who appears in the final movie of the game. He will be summon, if player knocks the bad word with such letters-cubes, as 'S', 'K', 'U', 'C'."
   million_video: "Video with million of views"
   trailer: "Trailer"

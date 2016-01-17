@@ -28,7 +28,9 @@
       </div>
     </div>
     <div class="item" style="max-height: 1000px;">
-      <img class="rounded centered_image" style="width: 700px; height: 500px;" src="https://pp.vk.me/c631131/v631131243/ec66/nmOYydbyZUM.jpg" >
+      <%= link_to other_projects_path do %>
+        <img class="rounded centered_image" style="width: 700px; height: 500px;" src="https://pp.vk.me/c631131/v631131243/ec66/nmOYydbyZUM.jpg" >
+      <% end %>
       <div class="carousel-caption">
         <h3><%= t(:stuff) %></h3>
         <h4><%= t(:projects) %></h4>

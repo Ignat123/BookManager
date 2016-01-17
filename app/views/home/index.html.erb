@@ -33,7 +33,9 @@
 
 <div style="display: inline-block">
     <figure class="l left">
-      <img class="rounded" style="width: 200px; height: 300px;" src="https://pp.vk.me/c411129/v411129243/85da/cJygD2g2onc.jpg" alt="Sarcasm">
+      <%= link_to about_me_index_path do %>
+        <img class="rounded" style="width: 200px; height: 300px;" src="https://pp.vk.me/c411129/v411129243/85da/cJygD2g2onc.jpg" title="<%= t(:photo_frog) %>" alt="<%= t(:photo_frog) %>">
+      <% end %>
     </figure>
     <p> <%= t(:introduce) %></p>
       <p>
@@ -71,7 +73,9 @@
 <img  style="display: block; margin-left: auto; margin-right: auto;" src="https://www.dropbox.com/s/act6nlvj5pdzcpy/Line.png?dl=1" alt="hr-line" width="700" height="80">
 <div style="display: inline-block">
   <figure class="l left">
-    <img class="rounded" style="width: 200px; height: 150px;" src="https://pp.vk.me/c633126/v633126243/b013/US2Y3YIBG7s.jpg" alt="Face">
+    <%= link_to scp_game_index_path do %>
+        <img class="rounded" style="width: 200px; height: 150px;" src="https://pp.vk.me/c633126/v633126243/b013/US2Y3YIBG7s.jpg" alt="Face">
+    <% end %>
   </figure>
   <p>
     <%= t(:horror_this) %>
@@ -92,14 +96,18 @@
 <img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.dropbox.com/s/8zuak3bzeu40n28/Code.png?dl=1" width="750" height="150">
 <div style="display: inline-block; margin-left: 35%; text-align: center;">
   <figure class="r right">
-    <img class="rounded" style="width: 200px; height: 150px;" src="https://pp.vk.me/c633126/v633126243/af17/Drp8q7Oob2E.jpg" alt="Upstge">
+    <%= link_to other_projects_path do %>
+        <img class="rounded" style="width: 200px; height: 150px;" src="https://pp.vk.me/c633126/v633126243/af17/Drp8q7Oob2E.jpg" alt="Upstge">
+    <% end %>
   </figure>
   <figure class="r right">
-    <img class="rounded" style="width: 200px; height: 150px;" src="https://pp.vk.me/c627121/v627121243/2f8fa/kyw_2xY95Mg.jpg" alt="Neh">
+    <%= link_to other_projects_path do %>
+        <img class="rounded" style="width: 200px; height: 150px;" src="https://pp.vk.me/c627121/v627121243/2f8fa/kyw_2xY95Mg.jpg" alt="Neh">
+    <% end %>
   </figure>
 </div>
 <p style="text-align: center;">
-  <%= link_to t(:here_2), about_me_index_path %> <%= t(:worked_with) %>
+  <%= link_to t(:here_2), other_projects_path %> <%= t(:worked_with) %>
 </p>
 <br/>
 
