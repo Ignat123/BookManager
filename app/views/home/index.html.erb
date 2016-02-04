@@ -26,7 +26,7 @@
   <%= t(:important) %>
 </h3>
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;"  src="https://www.dropbox.com/s/y48ak7bfs89ewvx/Swords.png?dl=1" alt="hr-line" width="472" height="62">
+<img style="display: block; margin-left: auto; margin-right: auto;"  src="https://www.dropbox.com/s/llizp2m7ydy3zbi/wbAHHNG96O8.jpg?dl=1" alt="hr-line" width="472" height="62">
 <h4 class="text-colorized margined" style="font-size: 25px; font-style: italic; text-decoration: underline;">
   <%= t(:about_me) %>
 </h4>
@@ -34,7 +34,7 @@
 <div style="display: inline-block">
     <figure class="l left">
       <%= link_to about_me_index_path do %>
-        <img class="rounded" style="width: 200px; height: 300px;" src="https://pp.vk.me/c411129/v411129243/85da/cJygD2g2onc.jpg" title="<%= t(:photo_frog) %>" alt="<%= t(:photo_frog) %>">
+        <img class="rounded" style="width: 200px; height: 160px;" src="https://pp.vk.me/c320917/v320917243/696c/-tC-kt0B6A4.jpg" %>
       <% end %>
     </figure>
     <p> <%= t(:introduce) %></p>
@@ -86,6 +86,28 @@
       <%= t(:horrors_bad) %>
     </p>
     <%= t(:horror_learn_more) %> <%= link_to t(:here_1), scp_game_index_path %>.
+  </p>
+</div>
+
+<h4 class="text-colorized" style="font-size: 25px; font-style: italic; text-decoration: underline; text-align: right !important;">
+  <%= t(:about_nights) %>
+</h4>
+<img  style="display: block; margin-left: auto; margin-right: auto;" src="https://www.dropbox.com/s/y48ak7bfs89ewvx/Swords.png?dl=1" alt="hr-line" width="472" height="62">
+<div style="display: inline-block">
+  <figure class="r right">
+    <%= link_to  ggj_index_path do %>
+        <img class="rounded" style="width: 200px; height: 150px;" src="http://globalgamejam.org/sites/default/files/styles/game_sidebar__normal/public/game/featured_image/zastavka_fin2.png">
+    <% end %>
+  </figure>
+  <br/>
+  <p class=" margined">
+    <%= t(:second_year) %>
+  </p>
+  <p class="margined">
+    <%= t(:but_fun) %>
+  </p>
+  <p class=" margined">
+    <%= t(:history_ggj) %> <%= link_to t(:here), ggj_index_path %>.
   </p>
 </div>
 
