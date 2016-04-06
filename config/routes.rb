@@ -27,6 +27,7 @@ Rails.application.routes.draw do
   resources :about_me, only: [:index]
   resources :lario_game, only: [:index]
   resources :scp_game, only: [:index]
+  resources :bit_hero, only: [:index]
 
   resources :other_projects, only: [:index]
 
